@@ -3,10 +3,12 @@ sliders.forEach((slider) => {
   slider.addEventListener("input", calculateTip);
 });
 
-const billInput = document.getElementById("bill")
-billInput.addEventListener("change",calculateTip)
+const billInput = document.getElementById("bill");
+billInput.addEventListener("change", calculateTip);
 
-
-function calculateTip(){
-
+function calculateTip() {
+  let bill = parseFloat(billInput.value);
+  let tipPercent = document.getElementById("tip").value;
+  let noOfPeople = document.getElementById("no-of-people").value;
+  billInput.value = bill.toFixed(2);
 }
