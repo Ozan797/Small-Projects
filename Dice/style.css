@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    min-height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,7 +23,7 @@ body {
 }
 
 #title {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
   font-size: 100px;
 }
 
@@ -32,9 +32,9 @@ body {
 }
 
 #btn {
-    background-color: red;
-    font-size: 25px;
-    padding: 10px 20px;
+  background-color: #fff;
+  font-size: 25px;
+  padding: 10px 20px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -42,7 +42,7 @@ body {
 }
 
 #btn:hover {
-    background-color: orange;
-  opacity: 0.65;
-  transform: translateY(-5px);
+  background-color: crimson;
+  color: #fff;
+  transform: translateY(-3px);
 }
