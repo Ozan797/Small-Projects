@@ -20,6 +20,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 0.5rem;
 }
 
 nav ul {
@@ -48,4 +49,49 @@ nav h1 {
 
 nav ul li a:hover {
   color: var(--accent);
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  margin: 1rem 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.hero h1 span {
+  color: var(--accent);
+}
+
+.contents {
+  display: flex;
+  margin: 1rem;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 0 1rem;
+  border: 1px solid red;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  width: fit-content;
+}
+
+.card img {
+  max-width: 70%;
+  max-height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
