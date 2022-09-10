@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3e0078;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.wrapper > * {
+  margin: 10px;
+}
+
+#title {
+  margin-bottom: 50px;
+  font-size: 100px;
+}
+
+#roll-value {
+  font-size: 125px;
+}
+
+#btn {
+  background-color: #fff;
+  font-size: 25px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+#btn:hover {
+  background-color: crimson;
+  color: #fff;
+  transform: translateY(-3px);
+}
